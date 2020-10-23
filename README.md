@@ -1,19 +1,21 @@
 ## Description
 
-NestJS Server for shortening URL's
+NestJS Server for shortening URL's.
+Frontend build with react
 
 ## Installation
 
 ```bash
+$ cd server/
 $ npm install
 ```
 
 ## Running the app
 
+Recommend installing the nestjs cli for running the server
+
 ```bash
-# development
-$ npm run start
 
 # watch mode
-$ npm run start:dev
+$ nest start --watch
 ```
