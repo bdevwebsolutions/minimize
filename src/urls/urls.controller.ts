@@ -17,7 +17,7 @@ export class UrlsController {
       result = { code: 1, text: 'Already in use, pick another slug' };
       return result;
     } else {
-      result = { code: 2, text: 'Tinyurl created', url: res.data };
+      result = { code: 2, text: 'Url created', url: res.data };
       return result;
     }
   }
