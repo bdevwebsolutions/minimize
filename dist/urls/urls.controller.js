@@ -28,7 +28,7 @@ let UrlsController = class UrlsController {
             return result;
         }
         else {
-            result = { code: 2, text: 'Tinyurl created', url: res.data };
+            result = { code: 2, text: 'Url created', url: res.data };
             return result;
         }
     }

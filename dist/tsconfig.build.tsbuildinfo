@@ -1567,7 +1567,7 @@
         "affectsGlobalScope": false
       },
       "../src/urls/urls.controller.ts": {
-        "version": "6e9639bdde2bab23e34e0ed6392112b87abce2dfa48705dcf34d650e187c73e2",
+        "version": "e0bd3d75784e5673d62e0a12e803ea96d305dc6ed89b8ec250c07b4dfc24454a",
         "signature": "ce7c5738b1ac60ad58414efe4ae6177b65caff20f07346a8af6f3980cd12501c",
         "affectsGlobalScope": false
       },
