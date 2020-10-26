@@ -1562,7 +1562,7 @@
         "affectsGlobalScope": false
       },
       "../src/urls/urls.service.ts": {
-        "version": "b8d05927098c7a1d700c2d9c460cbb4bd780b6bbda47e5d9bca2a673e4324864",
+        "version": "d6c9966f3af266c3a10f4c8d99bb3a4f6a23428a74f1d5855ef98cb5e647438d",
         "signature": "a5d341bc356ce8b47f9b37feab6fe86369a1eb329b6a6b09b648ce7a3d38d817",
         "affectsGlobalScope": false
       },

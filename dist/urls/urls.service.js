@@ -28,7 +28,10 @@ let UrlsService = class UrlsService {
         }
         else {
             const result = await newUrl.save();
-            return { data: `localhost:3000/urls/${slug}`, err: false };
+            return {
+                data: `https://minimize-bdev.herokuapp.com/urls/${slug}`,
+                err: false,
+            };
         }
     }
     async verifySlug(slug) {
