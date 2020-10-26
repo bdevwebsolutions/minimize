@@ -19,10 +19,11 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: path_1.join(__dirname, '..', 'client')
+                rootPath: path_1.join(__dirname, '..', 'client'),
             }),
             config_1.ConfigModule.forRoot({ isGlobal: true }),
-            mongoose_1.MongooseModule.forRoot(process.env.DATABASE_LINK),
+            mongoose_1.MongooseModule.forRoot(process.env.DATABASE_LINK ||
+                'mongodb+srv://BDEVBjarne:Jackandjones2110@minimize.zqggi.mongodb.net/minimize?retryWrites=true&w=majority'),
             urls_module_1.UrlsModule,
         ],
     })
